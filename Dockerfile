@@ -1,4 +1,4 @@
-FROM bash:4.4
+FROM php:7.4-cli
 
-COPY bcm.sh /
-CMD [ "bash", "/bcm.sh" ]
+COPY src /src
+CMD [ "php", "/src/main.php" ]

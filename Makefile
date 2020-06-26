@@ -1,5 +1,5 @@
 build: ## Build the container
-	docker build -t bcm-simple-alpha .
+	docker build -t php-urban-dictionary .
 
 run: build
-	docker run bcm-simple-alpha:latest
+	docker run php-urban-dictionary:latest

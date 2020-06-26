@@ -3,4 +3,4 @@
 # build with redirect to stderr
 make build 1>&2
 
-docker run bcm-simple-alpha:latest
+docker run php-urban-dictionary:latest
